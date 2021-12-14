@@ -16,7 +16,7 @@ variable "app" {
     domain           = "magprd.vsgcommerce.cloud"
     admin_email      = "admin@vsgcommerce.cloud"
     staging_domain   = "magstg.vsgcommerce.cloud"
-    source           = "https://github.com/magenx/Magento-2.git"
+    source           = "https://github.com/bencarlson/Magento-2.git"
     language         = "en_US"
     currency         = "USD"
     timezone         = "CDT"
