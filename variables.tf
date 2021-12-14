@@ -11,15 +11,15 @@ variable "ec2" {
 variable "app" {
   description      = "Map application params | Magento 2"
   default          = {
-    cidr_block       = "172.30.0.0/16"
-    brand            = "magenx"
-    domain           = "magenx.org"
-    admin_email      = "admin@magenx.org"
-    staging_domain   = "staging.magenx.org"
+    cidr_block       = "172.31.0.0/16"
+    brand            = "vsgcommerce"
+    domain           = "magprd.vsgcommerce.cloud"
+    admin_email      = "admin@vsgcommerce.cloud"
+    staging_domain   = "magstg.vsgcommerce.cloud"
     source           = "https://github.com/magenx/Magento-2.git"
     language         = "en_US"
-    currency         = "EUR"
-    timezone         = "UTC"
+    currency         = "USD"
+    timezone         = "CDT"
     php_version      = "7.4"
     volume_size      = "50"
   }
